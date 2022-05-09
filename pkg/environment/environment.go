@@ -33,14 +33,14 @@ const (
 	ModifyVMTemplateImageKey  = "MODIFY_VM_TEMPLATE_IMG"
 	WaitForVMISTatusImageKey  = "WAIT_FOR_VMI_STATUS_IMG"
 
-	DefaultWaitForVMIStatusIMG  = "quay.io/kubevirt/tekton-task-wait-for-vmi-status:" + operands.TektonTasksVersion
-	DeafultModifyVMTemplateIMG  = "quay.io/kubevirt/tekton-task-modify-vm-template:" + operands.TektonTasksVersion
-	DeafultDiskVirtSysprepIMG   = "quay.io/kubevirt/tekton-task-disk-virt-sysprep:" + operands.TektonTasksVersion
-	DeafultDiskVirtCustomizeIMG = "quay.io/kubevirt/tekton-task-disk-virt-customize:" + operands.TektonTasksVersion
-	DeafultCreateVMIMG          = "quay.io/kubevirt/tekton-task-create-vm:" + operands.TektonTasksVersion
+	DefaultWaitForVMIStatusIMG  = "quay.io/fmatouschek/tekton-task-wait-for-vmi-status:" + operands.TektonTasksVersion
+	DeafultModifyVMTemplateIMG  = "quay.io/fmatouschek/tekton-task-modify-vm-template:" + operands.TektonTasksVersion
+	DeafultDiskVirtSysprepIMG   = "quay.io/fmatouschek/tekton-task-disk-virt-sysprep:" + operands.TektonTasksVersion
+	DeafultDiskVirtCustomizeIMG = "quay.io/fmatouschek/tekton-task-disk-virt-customize:" + operands.TektonTasksVersion
+	DeafultCreateVMIMG          = "quay.io/fmatouschek/tekton-task-create-vm:" + operands.TektonTasksVersion
 	DeafultCreateDatavolumeIMG  = "quay.io/openshift/origin-cli:4.8"
-	DeafultCopyTemplateIMG      = "quay.io/kubevirt/tekton-task-copy-template:" + operands.TektonTasksVersion
-	DeafultCleanupVMIMG         = "quay.io/kubevirt/tekton-task-execute-in-vm:" + operands.TektonTasksVersion
+	DeafultCopyTemplateIMG      = "quay.io/fmatouschek/tekton-task-copy-template:" + operands.TektonTasksVersion
+	DeafultCleanupVMIMG         = "quay.io/fmatouschek/tekton-task-execute-in-vm:" + operands.TektonTasksVersion
 
 	defaultOperatorVersion = "devel"
 )
